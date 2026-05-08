@@ -1,0 +1,7 @@
+# Local Claude permissions overrides
+.claude/settings.local.json
+
+# Playwright MCP session artifacts
+.playwright-mcp/
+
+.DS_Store
