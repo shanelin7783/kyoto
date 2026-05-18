@@ -5,3 +5,13 @@
 .playwright-mcp/
 
 .DS_Store
+
+website/node_modules/
+website/dist/
+
+# pnpm content-addressable store when using a project-local store (e.g. store-dir)
+.pnpm-store/
+
+# Tooling / IDE under website (not part of production build)
+website/.cursor/
+**/__pycache__/

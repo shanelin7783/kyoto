@@ -1,0 +1,207 @@
+{
+  "tripTitle": "京都旅遊行程 2026年5月",
+  "dataVersion": "2026-05-18",
+  "hero": {
+    "headline": "京都・奈良・大阪｜關西家庭假期",
+    "subheadline": "五日慢遊：古都行、嵐山風景、奈良小鹿、大阪道別",
+    "dateRange": "2026年5月23日–27日"
+  },
+  "meta": {
+    "hotelName": "No.8 Kyoto",
+    "hotelMapsUrl": "https://maps.app.goo.gl/oa4pmi1D1Wh3sHN79",
+    "hotelSummary": "京都車站八條口步行約 6 分鐘、約 450m｜5/23–5/26 共 4 晚"
+  },
+  "days": [
+    {
+      "dateLabel": "5/23（六）",
+      "sectionTitle": "抵達日",
+      "tagline": "從關空進京都，車站美食與民宿入住的第一日。",
+      "highlights": [
+        {
+          "segment": "morning",
+          "label": "抵達關西國際機場，通關取行李",
+          "intro": "關西主門戶機場，入境後可銜接 JR／南海前往京阪神各地。",
+          "mapsUrl": "https://maps.app.goo.gl/wEQTN44qFQanAo5d9"
+        },
+        {
+          "segment": "morning",
+          "label": "Haruka 特急前往京都",
+          "intro": "JR 特急列車，關空直達京都站，適合攜帶大型行李移動。",
+          "mapsUrl": "https://maps.app.goo.gl/jp4xxiEv1evw5gjY8"
+        },
+        {
+          "segment": "lunch",
+          "label": "京都站 拉麵小路午餐",
+          "intro": "京都站大樓 JR 京都伊勢丹 10 樓「京都拉麵小路」，自北海道至博多等地名店拉麵集結於此，可依口味選店。",
+          "mapsUrl": "https://maps.app.goo.gl/jANLHDDgf7kS4CjV6"
+        },
+        {
+          "segment": "afternoon",
+          "label": "計程車至 No.8 Kyoto Check-in",
+          "intro": "民宿鄰近京都站八條口，縮短推行李距離。",
+          "mapsUrl": "https://maps.app.goo.gl/oa4pmi1D1Wh3sHN79"
+        },
+        {
+          "segment": "dinner",
+          "label": "こけこっこ晚餐",
+          "intro": "JR 京都伊勢丹 10 樓炭火串燒／居酒屋型餐飲：午間多為親子丼、和定食，晚間主打燒鳥與串燒。",
+          "mapsUrl": "https://maps.app.goo.gl/tL85BunMNzGD9PjE7"
+        }
+      ]
+    },
+    {
+      "dateLabel": "5/24（日）",
+      "sectionTitle": "伏見稻荷 → 奈良",
+      "tagline": "千本鳥居與奈良公園，傍晚近鐵返京。",
+      "highlights": [
+        {
+          "segment": "morning",
+          "label": "伏見稻荷神社（千本鳥居入口段）",
+          "intro": "以千本鳥居聞名的神社，石板平緩可依體力調整步行距離。",
+          "mapsUrl": "https://maps.app.goo.gl/Bok763JvSoPGxvrw9"
+        },
+        {
+          "segment": "lunch",
+          "label": "志津香釜飯大宮店",
+          "intro": "奈良代表的陶鍋釜飯專門店「志津香」，釜現炊搭配季節配料；新大宮／大宮一帶的人氣排隊名店。",
+          "mapsUrl": "https://maps.app.goo.gl/MeLvUX6w5LJDxXki9"
+        },
+        {
+          "segment": "afternoon",
+          "label": "奈良公園餵鹿",
+          "intro": "開闊草地與鹿群共生，可購鹿仙貝互動。",
+          "mapsUrl": "https://maps.app.goo.gl/UW39aopLceEvYXVs5"
+        },
+        {
+          "segment": "afternoon",
+          "label": "東大寺大佛殿",
+          "intro": "世界遺產，大佛殿內供奉巨大盧舍那佛，木造規模震撼。",
+          "mapsUrl": "https://maps.app.goo.gl/9vrgmfQJYoGbpiH1A"
+        },
+        {
+          "segment": "evening",
+          "label": "近鐵特急至近鐵京都站",
+          "intro": "近鐵特急行駛奈良至近鐵京都站，省時直達；須另購特急券且席別依列車規定。",
+          "mapsUrl": "https://maps.app.goo.gl/CHb12vZ84Nmk433y5"
+        },
+        {
+          "segment": "dinner",
+          "label": "瓢斗 京都站前本店",
+          "intro": "京都站前和食涮涮鍋名店，分類為しゃぶしゃぶ・すき焼き系；名物「出汁しゃぶ」以高湯涮銘柄豚，距京都站近。",
+          "mapsUrl": "https://maps.app.goo.gl/AUcRG56UYhPoeapY7"
+        }
+      ]
+    },
+    {
+      "dateLabel": "5/25（一）",
+      "sectionTitle": "嵐山全日",
+      "tagline": "竹林、庭園午餐、小火車與保津川遊船。",
+      "highlights": [
+        {
+          "segment": "morning",
+          "label": "嵯峨嵐山：竹林小徑、野宮神社",
+          "intro": "嵐山代表竹林隧道及周邊小社，散步氣氛清幽。",
+          "mapsUrl": "https://maps.app.goo.gl/hnz1NYXChUGBYZnj7"
+        },
+        {
+          "segment": "lunch",
+          "label": "天龍寺 篩月 精進料理",
+          "intro": "世界遺產天龍寺直營精進料理店「篩月」，品味季節野菜與豆腐等精進膳；入園、預約與座席依官網／現場。",
+          "mapsUrl": "https://maps.app.goo.gl/o9u7FiC7fgALirqy8"
+        },
+        {
+          "segment": "afternoon",
+          "label": "嵯峨野小火車（嵐山→亀岡）→ 保津川遊船",
+          "intro": "觀光列車下谷後轉乘河谷遊船，沿途峽谷景色壯闊。",
+          "mapsUrl": "https://maps.app.goo.gl/4MU2QyGaHF2Xnp5KA"
+        },
+        {
+          "segment": "afternoon",
+          "label": "渡月橋散步、抹茶甜點",
+          "intro": "桂川名橋與川畔茶屋，適合歇腳抹茶與和菓子。",
+          "mapsUrl": "https://maps.app.goo.gl/qz48pUopGZ55gTNW6"
+        },
+        {
+          "segment": "dinner",
+          "label": "京極かねよ",
+          "intro": "明治期創業的老舖鰻（うなぎ）專門，炭烤蒲燒與玉子燒鰻丼知名；木造老店鄰新京極・六角通。",
+          "mapsUrl": "https://maps.app.goo.gl/g8LRtMKPkK6UQtRK8"
+        }
+      ]
+    },
+    {
+      "dateLabel": "5/26（二）",
+      "sectionTitle": "東山漫步",
+      "tagline": "錦市場朝食、清水與祇園石板路。",
+      "highlights": [
+        {
+          "segment": "breakfast",
+          "label": "錦市場邊走邊吃",
+          "intro": "有「京都廚房」之稱的拱廊市場，漬物、小食與海鮮串選擇多。",
+          "mapsUrl": "https://maps.app.goo.gl/Rp8ZH8qbNibqDkS69"
+        },
+        {
+          "segment": "morning",
+          "label": "清水寺本堂",
+          "intro": "世界遺產木造舞台，春季櫻、秋季楓景尤勝，參拜需現金。",
+          "mapsUrl": "https://maps.app.goo.gl/ySG8B8N3cvg3eWca7"
+        },
+        {
+          "segment": "afternoon",
+          "label": "三年坂、二年坂 → 高台寺（寧寧之道）",
+          "intro": "保存良好的坂道聚落與寧寧之道，高台寺庭園幽靜。",
+          "mapsUrl": "https://maps.app.goo.gl/xePMw24TRQWW4TXg8"
+        },
+        {
+          "segment": "afternoon",
+          "label": "八坂神社、祇園花見小路",
+          "intro": "祇園信仰中心與石板小巷，傍晚街景最具情調。",
+          "mapsUrl": "https://maps.app.goo.gl/MSXh9Y7mq2BunvYE7"
+        },
+        {
+          "segment": "dinner",
+          "label": "りきちゃん 祇園店",
+          "intro": "祇園四条附近的炭火燒肉店，黑毛和牛菲力專門；與奈良燒肉百名店「きみや」同系譜的熱門店。",
+          "mapsUrl": "https://maps.app.goo.gl/W5cZgsFgUkVqqat48"
+        }
+      ]
+    },
+    {
+      "dateLabel": "5/27（三）",
+      "sectionTitle": "大阪 → 關西機場",
+      "tagline": "難波行李、市場與購物，南海線往關空返台。",
+      "highlights": [
+        {
+          "segment": "morning",
+          "label": "JR／地鐵至大阪難波、Yamato 行李寄放",
+          "intro": "難波周邊集結商店街；黑貓據點可日寄行李方便血拚。",
+          "mapsUrl": "https://maps.app.goo.gl/nJ5nQwonh8bcEPbE6"
+        },
+        {
+          "segment": "lunch",
+          "label": "黑門市場邊走邊吃",
+          "intro": "大阪指標市集，海鮮丼、關西小吃與水果櫃並陳。",
+          "mapsUrl": "https://maps.app.goo.gl/wZjYRaxAJURqqjsy9"
+        },
+        {
+          "segment": "afternoon",
+          "label": "心齋橋、道頓堀逛街購物",
+          "intro": "弧型遮頂商店街與固力果招牌河畔，藥妝與名店集中。",
+          "mapsUrl": "https://maps.app.goo.gl/D3DKCz478T12kfib6"
+        },
+        {
+          "segment": "dinner",
+          "label": "北極星蛋包飯心齋橋本店",
+          "intro": "約大正十一年（1922）創於心齋橋本店一代的洋食老舖，日式蛋包飯（オムライス）名店；數寄屋舊宅塌塌米席別有風情。",
+          "mapsUrl": "https://maps.app.goo.gl/FkJfmK1u1UChgzf1A"
+        },
+        {
+          "segment": "evening",
+          "label": "南海難波搭南海線至關西國際機場",
+          "intro": "難波直達關空的鐵道路線，適合班機前移動。",
+          "mapsUrl": "https://maps.app.goo.gl/7L91sNQzSNoKifb76"
+        }
+      ]
+    }
+  ]
+}

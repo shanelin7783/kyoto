@@ -1,0 +1,91 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://kyoto.local/trip-brochure.schema.json",
+  "title": "KyotoTripBrochure",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tripTitle", "dataVersion", "hero", "meta", "days"],
+  "properties": {
+    "tripTitle": { "type": "string", "minLength": 1 },
+    "dataVersion": { "type": "string", "minLength": 1 },
+    "hero": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["headline", "subheadline", "dateRange"],
+      "properties": {
+        "headline": { "type": "string" },
+        "subheadline": { "type": "string" },
+        "dateRange": { "type": "string" }
+      }
+    },
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hotelName", "hotelMapsUrl", "hotelSummary"],
+      "properties": {
+        "hotelName": { "type": "string" },
+        "hotelMapsUrl": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "hotelSummary": { "type": "string" }
+      }
+    },
+    "days": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": { "$ref": "#/$defs/dayCard" }
+    }
+  },
+  "$defs": {
+    "segment": {
+      "type": "string",
+      "enum": [
+        "morning",
+        "afternoon",
+        "evening",
+        "breakfast",
+        "lunch",
+        "dinner"
+      ]
+    },
+    "highlight": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["segment", "label", "intro", "mapsUrl"],
+      "properties": {
+        "segment": { "$ref": "#/$defs/segment" },
+        "label": { "type": "string", "minLength": 1 },
+        "intro": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 220,
+          "description": "景點：一句特色；餐廳：料理類型／店型；交通：一句即可。"
+        },
+        "mapsUrl": {
+          "anyOf": [
+            { "type": "string", "pattern": "^https://" },
+            { "type": "null" }
+          ]
+        }
+      }
+    },
+    "dayCard": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["dateLabel", "sectionTitle", "tagline", "highlights"],
+      "properties": {
+        "dateLabel": { "type": "string" },
+        "sectionTitle": { "type": "string" },
+        "tagline": { "type": "string" },
+        "highlights": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/highlight" }
+        }
+      }
+    }
+  }
+}

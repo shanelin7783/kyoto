@@ -1,0 +1,23 @@
+:root {
+  --color-bg: #faf7f2;
+  --color-bg-elevated: #ffffff;
+  --color-bg-hero: linear-gradient(
+    125deg,
+    #f4efe6 0%,
+    #e8f0ea 42%,
+    #dce8e3 100%
+  );
+  --color-text: #1f2422;
+  --color-text-muted: #5c6560;
+  --color-accent: #2f6f5e;
+  --color-accent-soft: #e3f1ec;
+  --color-line: rgba(31, 36, 34, 0.08);
+  --shadow-soft: 0 12px 40px rgba(31, 36, 34, 0.08);
+  --shadow-card: 0 8px 24px rgba(31, 36, 34, 0.06);
+  --radius-lg: 18px;
+  --radius-md: 12px;
+  --font-display: "Cormorant Garamond", "Noto Serif TC", ui-serif, Georgia, serif;
+  --font-body: "DM Sans", "Noto Sans TC", system-ui, sans-serif;
+  --space-unit: 8px;
+  --content-max: 1040px;
+}
