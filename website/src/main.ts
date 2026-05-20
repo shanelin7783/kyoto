@@ -99,14 +99,26 @@ function mount(root: HTMLElement): void {
   const heroInner = document.createElement('div')
   heroInner.className = 'hero__inner'
 
+  const meta = document.createElement('div')
+  meta.className = 'hero__meta'
+
   const kicker = document.createElement('p')
   kicker.className = 'hero__kicker'
   kicker.textContent = trip.hero.dateRange
+
+  meta.appendChild(kicker)
+
+  const body = document.createElement('div')
+  body.className = 'hero__body'
 
   const h1 = document.createElement('h1')
   h1.id = 'hero-title'
   h1.className = 'hero__title'
   h1.textContent = trip.hero.headline
+
+  const rule = document.createElement('div')
+  rule.className = 'hero__rule'
+  rule.setAttribute('aria-hidden', 'true')
 
   const sub = document.createElement('p')
   sub.className = 'hero__sub'
@@ -116,7 +128,8 @@ function mount(root: HTMLElement): void {
   cv.className = 'hero__cv'
   cv.textContent = `資料版本 ${trip.dataVersion}`
 
-  heroInner.append(kicker, h1, sub, cv)
+  body.append(h1, rule, sub, cv)
+  heroInner.append(meta, body)
   hero.appendChild(heroInner)
 
   const summary = document.createElement('section')

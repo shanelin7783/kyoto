@@ -1,23 +1,44 @@
 :root {
-  --color-bg: #faf7f2;
-  --color-bg-elevated: #ffffff;
+  /* 生成り · washi-adjacent warm base */
+  --color-bg: #f3efe6;
+  --color-bg-elevated: #fcfaf7;
+  /* 雲龍紙系 hero：帶灰藍與米色層次 */
   --color-bg-hero: linear-gradient(
-    125deg,
-    #f4efe6 0%,
-    #e8f0ea 42%,
-    #dce8e3 100%
+    168deg,
+    #ebe6dc 0%,
+    #e4eae8 38%,
+    #d8e2df 72%,
+    #cfd9d5 100%
   );
-  --color-text: #1f2422;
-  --color-text-muted: #5c6560;
-  --color-accent: #2f6f5e;
-  --color-accent-soft: #e3f1ec;
-  --color-line: rgba(31, 36, 34, 0.08);
-  --shadow-soft: 0 12px 40px rgba(31, 36, 34, 0.08);
-  --shadow-card: 0 8px 24px rgba(31, 36, 34, 0.06);
-  --radius-lg: 18px;
-  --radius-md: 12px;
-  --font-display: "Cormorant Garamond", "Noto Serif TC", ui-serif, Georgia, serif;
-  --font-body: "DM Sans", "Noto Sans TC", system-ui, sans-serif;
+  /* 墨色 · sumi */
+  --color-text: #2a2726;
+  --color-text-muted: #5f5954;
+  /* 深竹緑 · 京都 */
+  --color-accent: #3d5248;
+  --color-accent-mid: #5c7368;
+  --color-accent-soft: #dbe8e2;
+  --color-accent-hover: #2d3f37;
+  /* 藍墨 · 罫線・裝飾 */
+  --color-ai: #4a5860;
+  /* 赭／栗 · kicker に温かみ */
+  --color-ink-warm: #6a5346;
+  /* 印朱 · 僅作細線點綴時使用 */
+  --color-shu: #a84335;
+  --color-line: rgba(42, 39, 38, 0.09);
+  --color-line-strong: rgba(61, 82, 72, 0.28);
+  /* 和式陰影：較淡、較發散 */
+  --shadow-soft: 0 16px 48px rgba(42, 39, 38, 0.07);
+  --shadow-card: 0 4px 20px rgba(42, 39, 38, 0.06);
+  --shadow-card-hover: 0 12px 40px rgba(42, 39, 38, 0.1);
+  --shadow-card-lift: 0 18px 52px rgba(42, 39, 38, 0.11);
+  --paper-grain-opacity: 0.042;
+  /* 角はやや締めて「紙片」感 */
+  --radius-lg: 9px;
+  --radius-md: 7px;
+  /* Shippori Mincho：和風明朝 + Noto 繁體後備 */
+  --font-display: "Shippori Mincho", "Noto Serif TC", "Songti TC", ui-serif, serif;
+  --font-body: "DM Sans", "Noto Sans TC", "Hiragino Sans", system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
   --space-unit: 8px;
   --content-max: 1040px;
 }
